@@ -3,36 +3,99 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - PeptideTracker by Linda</title>
+    <title>Privacy Policy - PepChamp</title>
     <style>
         body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; line-height: 1.6; color: #333; }
         h1 { color: #1a1a2e; }
         h2 { color: #16213e; margin-top: 2em; }
+        h3 { color: #16213e; margin-top: 1.2em; }
         .updated { color: #666; font-size: 0.9em; }
+        code, .mono { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; background: #f4f4f4; padding: 2px 5px; border-radius: 3px; }
+        ul { margin-top: 0.3em; }
+        a { color: #ff525f; }
     </style>
 </head>
 <body>
     <h1>Privacy Policy</h1>
-    <p class="updated">Last updated: March 17, 2026</p>
-    <p>PeptideTracker by Linda ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your information when you use our mobile application.</p>
+    <p class="updated">Last updated: April 21, 2026</p>
+
+    <p>PepChamp ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, store, share, and safeguard your information when you use our mobile application. This policy mirrors the in-app Privacy Policy available in Settings &gt; Privacy Policy.</p>
 
     <h2>Information We Collect</h2>
-    <h3>Account Information</h3>
-    <p>When you create an account, we collect your email address and display name. If you sign in with Apple, we receive only the information you choose to share.</p>
 
-    <h3>Health and Wellness Data</h3>
-    <p>You may voluntarily enter health-related data including:</p>
+    <h3>Account Information</h3>
+    <ul>
+        <li>Email address (for authentication)</li>
+        <li>Display name (if you choose to set one)</li>
+        <li>If you use Sign in with Apple, only the information you choose to share</li>
+    </ul>
+
+    <h3>Profile Information (Optional)</h3>
+    <p>You may voluntarily provide:</p>
+    <ul>
+        <li>Phone number, address, city, state, ZIP code</li>
+        <li>Age, height, gender</li>
+        <li>Goals, experience level, preferences</li>
+    </ul>
+
+    <h3>Health and Wellness Data (Optional)</h3>
     <ul>
         <li>Peptide dose logs (date, time, dosage, injection site)</li>
+        <li>Protocol data (peptides tracked, dosing schedule, cycle length)</li>
         <li>Inventory records (vial names, quantities)</li>
-        <li>Blood work results</li>
-        <li>Body weight</li>
-        <li>Shipping address (for protocol orders)</li>
+        <li>Blood work values you voluntarily enter</li>
+        <li>Body measurements, weight</li>
+        <li>Wellness entries (mood, sleep, energy)</li>
     </ul>
-    <p>This data is stored securely and is only accessible to you.</p>
 
-    <h3>Usage Data</h3>
-    <p>We may collect anonymous usage analytics to improve the app experience. This does not include any health data.</p>
+    <h3>Device Permissions (Optional)</h3>
+    <ul>
+        <li>Calendar — used only to create dose-reminder events you schedule</li>
+        <li>Push Notifications — used only to send dose reminders and app updates you opt into</li>
+    </ul>
+    <p>You can revoke any device permission at any time through your device's Settings app.</p>
+
+    <h2>AI Data Sharing (Google Gemini)</h2>
+
+    <p>PepChamp offers three AI-powered features that send data to Google Gemini AI for processing: the <strong>AI Q&amp;A Assistant</strong>, the <strong>AI Research Helper</strong>, and the <strong>Smart Cycle Planner</strong>. No other feature in the app sends data to any AI service. The <strong>Interaction Checker does NOT use AI</strong> — it queries a local research-backed database.</p>
+
+    <h3>Recipient</h3>
+    <p>Google Gemini AI (<a href="https://ai.google.dev" target="_blank" rel="noopener">ai.google.dev</a>), operated by Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, United States. Google provides equal or equivalent privacy protection to this policy through its own <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Privacy Policy</a> and the Google API Terms of Service.</p>
+
+    <h3>Data Sent to Google Gemini</h3>
+    <ul>
+        <li>Text you type into the AI Q&amp;A Assistant (questions, follow-ups, and the conversation context within that session)</li>
+        <li>Questionnaire selections you make in the AI Research Helper (goals, experience level, route preference, frequency, complexity)</li>
+        <li>Protocol metadata you submit to the Smart Cycle Planner (protocol name, peptide names, doses you entered, frequency, cycle length, adherence percentage)</li>
+    </ul>
+
+    <h3>Data NOT Sent to Google Gemini</h3>
+    <ul>
+        <li>Your email, name, phone, address, or account details</li>
+        <li>Your stored dose logs or injection site history</li>
+        <li>Your blood work values, weight, or body measurements</li>
+        <li>Any other personally identifiable information</li>
+    </ul>
+
+    <h3>How Your Data Is Used</h3>
+    <p>Google Gemini processes your text to generate a response, which is returned to the app and displayed to you. Data is transmitted over encrypted HTTPS. PepChamp does not retain or share this data with any other third parties.</p>
+
+    <h3>Your Consent</h3>
+    <p>The first time you open any of the three AI features, the app shows a full-screen consent modal that identifies Google Gemini as the recipient, lists exactly what will be sent, what will not be sent, and requires you to tap "I Agree." If you tap "Cancel," no data is sent and the feature is not used. You can withdraw consent at any time by signing out — the next sign-in will require consent again before using AI features.</p>
+
+    <h2>Third-Party Services</h2>
+
+    <p>We use the following third-party services that may process your data. Each provides equal or equivalent privacy protection to this policy through its own privacy terms.</p>
+
+    <ul>
+        <li><strong>Supabase Inc.</strong> (<a href="https://supabase.com" target="_blank" rel="noopener">supabase.com</a>) — Authentication, database hosting, and cloud functions. Your account data, dose logs, protocols, blood work entries, wellness entries, measurements, and forum posts are stored in a Postgres database hosted in the United States. Supabase uses AWS as its underlying cloud provider. See <a href="https://supabase.com/privacy" target="_blank" rel="noopener">https://supabase.com/privacy</a>.</li>
+        <li><strong>RevenueCat, Inc.</strong> (<a href="https://revenuecat.com" target="_blank" rel="noopener">revenuecat.com</a>) — Subscription and in-app purchase management. Processes purchase receipts and subscription status. See <a href="https://www.revenuecat.com/privacy/" target="_blank" rel="noopener">https://www.revenuecat.com/privacy/</a>.</li>
+        <li><strong>Google LLC</strong> — Google Gemini AI powers three features only: AI Q&amp;A Assistant, AI Research Helper, and Smart Cycle Planner. Data sent is limited to what is described above. See <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">https://policies.google.com/privacy</a>.</li>
+        <li><strong>Expo, Inc.</strong> (<a href="https://expo.dev" target="_blank" rel="noopener">expo.dev</a>) — Push notification delivery and over-the-air update distribution. See <a href="https://expo.dev/privacy" target="_blank" rel="noopener">https://expo.dev/privacy</a>.</li>
+        <li><strong>Apple</strong> — App distribution, in-app purchase processing, and (if you use Sign In with Apple) authentication. See <a href="https://www.apple.com/privacy/" target="_blank" rel="noopener">https://www.apple.com/privacy/</a>.</li>
+    </ul>
+
+    <p>Each service has its own privacy policy. We encourage you to review them.</p>
 
     <h2>How We Use Your Information</h2>
     <ul>
@@ -45,36 +108,35 @@
     <h2>Data Storage and Security</h2>
     <p>Your data is stored on Supabase, which uses industry-standard encryption at rest and in transit. Authentication tokens are stored securely using your device's secure storage (Keychain on iOS). We do not store passwords — authentication is handled through secure providers (email/password via Supabase Auth, or Sign in with Apple).</p>
 
-    <h2>Data Sharing</h2>
-    <p>We do not sell, trade, or rent your personal information to third parties. We may share data only in the following circumstances:</p>
-    <ul>
-        <li><strong>Service Providers:</strong> We use Supabase (database/auth) and RevenueCat (subscription management) to operate the app. These providers process data on our behalf under strict privacy agreements.</li>
-        <li><strong>Community Features:</strong> If you post in the community forum, your display name and post content are visible to other users.</li>
-        <li><strong>Legal Requirements:</strong> We may disclose information if required by law.</li>
-    </ul>
-
-    <h2>Subscriptions and Payments</h2>
-    <p>Subscription payments are processed entirely through Apple's App Store. We do not collect or store any payment card information. RevenueCat manages subscription status on our behalf.</p>
-
     <h2>Your Rights</h2>
     <p>You have the right to:</p>
     <ul>
-        <li>Access your personal data</li>
-        <li>Request deletion of your account and all associated data</li>
-        <li>Export your data</li>
-        <li>Opt out of push notifications at any time</li>
+        <li>Access all data we store about you</li>
+        <li>Request export of your data</li>
+        <li>Delete your account and all associated data</li>
+        <li>Opt out of push notifications</li>
+        <li>Withdraw consent for data processing</li>
     </ul>
-    <p>To exercise these rights, contact us at the email below.</p>
+    <p>Account deletion is available in Settings &gt; Account Actions &gt; Delete Account. This permanently removes all your data from our servers.</p>
+    <p>For data export requests, contact us at <a href="mailto:support@peptidekit.app">support@peptidekit.app</a>.</p>
+
+    <h2>California Privacy Rights (CCPA)</h2>
+    <p>California residents have additional rights under the CCPA, including the right to know, delete, and opt-out of the sale of personal information. We do not sell personal information.</p>
+
+    <h2>EU Privacy Rights (GDPR)</h2>
+    <p>EU residents have rights under the GDPR including access, rectification, erasure, restriction, portability, and objection.</p>
+    <p>Contact us at <a href="mailto:support@peptidekit.app">support@peptidekit.app</a> to exercise these rights.</p>
 
     <h2>Children's Privacy</h2>
-    <p>Our app is not intended for children under 13. We do not knowingly collect personal information from children under 13.</p>
+    <p>PepChamp is not intended for individuals under 18 years of age. We do not knowingly collect information from minors. If you believe a minor has provided us with information, contact us for removal.</p>
+
+    <h2>Medical Disclaimer</h2>
+    <p>PepChamp provides educational information only — not medical advice, diagnosis, or treatment. Always consult a qualified healthcare provider before starting any peptide protocol. The app does not provide dosing recommendations.</p>
 
     <h2>Changes to This Policy</h2>
-    <p>We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new policy on this page and updating the "Last updated" date.</p>
+    <p>We may update this Privacy Policy periodically. Material changes will be communicated via in-app notice. Your continued use of the app after changes constitutes acceptance.</p>
 
     <h2>Contact Us</h2>
-    <p>If you have questions about this Privacy Policy, please contact us at:</p>
-    <p>Email: jasondogan@icloud.com</p>
-
+    <p>Questions, concerns, or requests? Email <a href="mailto:support@peptidekit.app">support@peptidekit.app</a>.</p>
 </body>
 </html>
